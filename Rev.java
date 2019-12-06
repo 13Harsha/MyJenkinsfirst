@@ -9,14 +9,7 @@ public class Rev {
 		Scanner s=new Scanner(System.in);
 		System.out.println("Enter No to be reaversed");
 		int a=s.nextInt();
-		while(a>0)
-		{
-			
-			int r=a%10;
-			rev=rev*10+r;
-			 a=a/10;
-			
-		}
+
 		System.out.printf("%d",rev);
 		 
 
