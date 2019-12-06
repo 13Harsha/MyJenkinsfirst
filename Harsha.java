@@ -13,12 +13,6 @@ public class Harsha {
             public int compare(Map.Entry< Integer,String> o1,  
                                Map.Entry< Integer,String> o2) 
             { 
-                return (o1.getValue()).compareTo(o2.getValue()); 
-            } 
-        }); 
-        HashMap<Integer , String> temp = new LinkedHashMap<Integer,String>(); 
-        for (Map.Entry< Integer,String> aa : list) { 
-            temp.put(aa.getKey(), aa.getValue()); 
         } 
         return temp; 
     } 
