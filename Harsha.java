@@ -19,12 +19,7 @@ public class Harsha {
     public static void main(String[] args) 
     { 
   
-        HashMap<Integer , String> map = new HashMap<Integer,String>(); 
-        map.put(10, "Java");
-        map.put(20, "C");
-        map.put(30, "Python");
-        map.put(40, "React");
-        map.put(50, "Oracle");
+        
 
         
        
